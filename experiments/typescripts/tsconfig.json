@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2022"],
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@solana/kit": ["../../../clients/js/node_modules/@solana/kit"],
+      "@solana-program/system": ["../../../clients/js/src"]
+    }
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
+

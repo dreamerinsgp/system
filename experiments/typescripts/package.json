@@ -1,0 +1,20 @@
+{
+  "name": "system-program-typescript-examples",
+  "version": "1.0.0",
+  "description": "TypeScript examples for Solana System Program",
+  "type": "module",
+  "scripts": {
+    "create-account": "tsx createAccount.ts",
+    "build": "tsc",
+    "dev": "tsx watch createAccount.ts"
+  },
+  "dependencies": {
+    "@solana/kit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.0"
+  }
+}
+
